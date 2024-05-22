@@ -1,0 +1,40 @@
+.header {
+  &__menu {
+    & .menu {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      column-gap: 16px;
+
+      &__item {
+        border-radius: 16px;
+        padding: 8px 16px;
+        height: 36px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--gray-60);
+
+        white-space: nowrap;
+
+        cursor: pointer;
+
+        &:hover {
+          color: var(--black);
+        }
+
+        &.active {
+          background: var(--gray-5);
+          color: var(--black);
+        }
+      }
+    }
+  }
+}

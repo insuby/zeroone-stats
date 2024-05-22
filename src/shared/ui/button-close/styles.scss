@@ -1,0 +1,29 @@
+.btn {
+  &__close {
+    border-radius: 12px;
+    padding: 8px;
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+
+    border: none;
+
+    fill: var(--white);
+    stroke-width: 1.50px;
+    stroke: var(--white);
+
+    background: rgba(255, 255, 255, 0.06);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);;
+    }
+
+    &:active {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    &:disabled {
+      background: rgba(255, 255, 255, 0.04);
+    }
+  }
+}

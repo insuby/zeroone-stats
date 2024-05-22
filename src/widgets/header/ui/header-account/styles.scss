@@ -1,0 +1,25 @@
+.account {
+  border-radius: 12px;
+  padding: 8px 12px;
+  height: 68px;
+  width: 92px;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  &__avatar {
+    border-radius: 100px;
+    width: fit-content;
+    height: 52px;
+    background: var(--gray-20);
+    padding: 4px;
+
+    img {
+      height: 44px;
+      width: 44px;
+      background: white;
+      border-radius: 50%;
+    }
+  }
+}
