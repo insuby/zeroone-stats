@@ -43,12 +43,13 @@ html, body {
   scroll-behavior: smooth;
 }
 
-html, body, #root, .app {
+html, body, #root {
   height: 100%;
+  width: 100%;
+  background: var(--gray-10);
 }
 
 body {
-  width: 1440px;
   display: grid;
   align-items: center;
   justify-self: center;
@@ -76,18 +77,16 @@ a {
   }
 }
 
-#root, .app {
-  width: 100%;
+#root {
   height: 100%;
-}
-
-.app {
+  width: 1440px;
   display: grid;
   grid-template-rows: 80px 1fr;
   row-gap: 24px;
 
+  margin: 0 auto
+;
   padding-bottom: 24px;
 
-  border-radius: 24px;
   background: var(--gray-10);
 }

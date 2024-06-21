@@ -17,10 +17,10 @@ setDefaultOptions({ locale: ru });
 
 export const App = withProviders(() => {
   return (
-    <div className="app">
+    <>
       <Pages />
       <Alert />
-    </div>
+    </>
   );
 });
 
